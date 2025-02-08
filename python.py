@@ -222,7 +222,10 @@ use range function
 for number in range(1,11)
     print(number)
 *will print numbers from 1 to 10
+----------------------------------------------
+REVERSE RANGE
 
+for num in range(start, stop, decrement):
 for number in range(1,11)
 range does not work for strings
 
@@ -259,3 +262,7 @@ sequence[start:end:step]
 start: The index where the slice begins (inclusive).
 end: The index where the slice ends (exclusive).
 step: (Optional) The number of steps between each index in the slice.
+----------------------------------------------------------------------------
+PARSING STRING
+Is a way of finding a substring in a string
+vaiable.find('')

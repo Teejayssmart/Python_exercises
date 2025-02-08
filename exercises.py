@@ -651,5 +651,14 @@
 #
 # print(user_name[letter])
 
-word = "Hello, World!"
-print(word[0:6])
+# word = "Hello, World!"
+# print(word[0:6])
+
+
+
+def print_pattern(n):
+    for num in range(0, n):
+        for num1 in range(0, num + 1):
+            print("#", end= ' ')
+        print()
+print_pattern(5)
