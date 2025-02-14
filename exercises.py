@@ -656,9 +656,90 @@
 
 
 
-def print_pattern(n):
-    for num in range(0, n):
-        for num1 in range(0, num + 1):
-            print("#", end= ' ')
-        print()
-print_pattern(5)
+# def print_pattern(n):
+#     for num in range(0, n):
+#         for num1 in range(0, num + 1):
+#             print("#", end= ' ')
+#         print()
+# print_pattern(5)
+
+# Implement a function that takes a list as a
+# parameter and turn list items into their square.
+#
+# Example
+#
+# custom_list = [1,2,3,4,5]
+# square_list(custom_list)
+
+
+# def square_list(p_list):
+#     new_list = []
+#     for listing in p_list:
+#         new_list.append(listing ** 2)
+#     return new_list
+# print(square_list([9,6]))
+#
+# food = ["rice","beans", "potato"]
+# type_food = len(food)
+# print(type_food)
+# print(food[type_food - 1])
+#
+# custom_list = [1,2,3,4,5,6,7,8,9,10]
+# new_list = custom_list[::-1]
+# print(new_list)
+#
+# def count_words(p_list):
+#     count = 0
+#     for index in p_list:
+#         if len(index) >= 2 and index[0] == index[-1]:
+#
+#                 count += 1
+#     return count
+#
+# result = count_words(['cbc', 'xyz', 'aba', '2332', 'abc'])
+# print(result)
+#
+# list_one = [4, 12, 16, 21, 24, 28, 32]
+# list_two = [5, 10, 15, 20, 25, 30, 35]
+#
+# list_3 = []
+# for index in list_one:
+#     if index % 2 == 0:
+#         list_3.append(index)
+# for index_1 in list_two:
+#     if index_1 % 2 != 0:
+#         list_3.append(index_1)
+#
+# print(list_3)
+
+
+# list_one = [4, 12, 16, 21, 24, 28, 32]
+# new_var = list_one[:4]
+# #print(new_var)
+# few_var = list_one[5:]
+# #print(few_var)
+# list_one = new_var + few_var
+# print(list_one)
+#
+# custom_list = [10, 44, 57, 99, 11, 33, 84]
+# slice_1 = custom_list[:4]
+# slice_2 = custom_list[5:]
+# custom_list = slice_1 + slice_2
+# print(custom_list)
+
+# sample_list = [21, 55, 18, 33, 24, 22, 68, 35, 79]
+# # chunk_1 = sample_list[:3]
+# # chunk_2 = sample_list[3:6]
+# # chunk_3 = sample_list[6:]
+# # print(chunk_1[::-1])
+# # print(chunk_2[::-1])
+# # print(chunk_3[::-1])
+# print(sample_list[::-1])
+
+custom_list = [1, 2, 3, 4, 5]
+#custom_list1 = "|".join(str(item) for item in custom_list)
+new_list = []
+for chk_list in custom_list:
+    new_list.append(str(chk_list))
+cus_list =  "|".join(new_list)
+print(cus_list)

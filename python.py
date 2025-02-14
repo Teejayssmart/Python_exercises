@@ -211,6 +211,7 @@ To loop through a list, use for loop
 e.g
 for items in list_of_items:
     do this
+for index in range(len(variable)):
 
 a_list = [a,b,c,d]
 for alphabet in a_list
