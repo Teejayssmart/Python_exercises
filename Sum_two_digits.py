@@ -11,6 +11,5 @@ def sum_2_digits():
     sum = int(two_digit_number[0]) + int(two_digit_number[1])
     return sum
 
-
 result = sum_2_digits()
 print(result)
