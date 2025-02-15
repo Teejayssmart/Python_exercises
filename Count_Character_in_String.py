@@ -10,5 +10,6 @@ def count_letter(word, letter):
         word[index]
         if letter in word[index]:
             counter = + 1
+
         index = + 1
 
