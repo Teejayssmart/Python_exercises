@@ -60,6 +60,7 @@ while counter < no_of_attempt:
 
     counter += 1
 
+
 else:
     print(f"the number is {random_number}")
     print("Better luck ne3xt time!")
