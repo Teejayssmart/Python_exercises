@@ -17,7 +17,6 @@ def encrypt(message, shift_number):
             new_message += alphabet[new_position]
     return new_message
 
-
 def decrypt(message, shift_number):
     decrypt_message = ''
     for char in message:
