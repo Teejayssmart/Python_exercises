@@ -13,6 +13,7 @@ while index >= 0:
     index -= 1
 
 user_input = input("Enter a string: ")
+
 index = 0  # starts from first character
 while index < len(user_input):
     result = user_input[index]
