@@ -17,3 +17,4 @@ def first_last_characters(word):
 
 result = first_last_characters("a")
 print(result)
+
