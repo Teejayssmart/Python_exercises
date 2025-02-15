@@ -732,7 +732,9 @@
 # # chunk_2 = sample_list[3:6]
 # # chunk_3 = sample_list[6:]
 # # print(chunk_1[::-1])
-# # print(chunk_2[::-1])
+
+
+
 # # print(chunk_3[::-1])
 # print(sample_list[::-1])
 
