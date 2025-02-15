@@ -16,5 +16,4 @@ def print_pattern(n):
             print("*", end=' ')
         print()
 
-
 print_pattern(5)
