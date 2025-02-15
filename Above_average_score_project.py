@@ -16,5 +16,4 @@ def sum_score_above_average(p_student_scores):
 
     return above_average_score
 
-
 print(sum_score_above_average(student_scores))
