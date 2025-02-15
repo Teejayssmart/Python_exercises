@@ -206,6 +206,7 @@ a_list.append("z")
 a_list = [a,b,f,d,z]
 
 ITERATIONS IN A LIST
+
 --------------------------------------------------
 To loop through a list, use for loop
 e.g
